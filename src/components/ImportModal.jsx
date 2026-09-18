@@ -105,7 +105,6 @@
 
 import { useRef, useState } from "react";
 import {
-  Upload,
   X,
   FileSpreadsheet,
   ClipboardPaste,
