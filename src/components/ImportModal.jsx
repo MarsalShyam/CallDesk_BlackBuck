@@ -352,20 +352,6 @@ export default function ImportModal({
               <CheckCircle2 size={18} />
               Add Numbers
             </button>
-
-            <div className="mt-4 rounded-xl bg-slate-50 p-3">
-              <p className="text-xs font-semibold text-slate-700">
-                Supported examples
-              </p>
-
-              <p className="mt-1 font-mono text-xs leading-5 text-slate-500">
-                9950298611
-                <br />
-                +919950298611
-                <br />
-                91 9950298611
-              </p>
-            </div>
           </div>
         )}
 

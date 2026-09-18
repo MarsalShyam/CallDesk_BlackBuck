@@ -7,6 +7,7 @@ import ContactTable from "./components/ContactTable";
 import ImportModal from "./components/ImportModal";
 import EmptyState from "./components/EmptyState";
 import Pagination from "./components/Pagination";
+import Footer from "./components/Footer";
 
 const PAGE_SIZE = 20;
 
@@ -164,6 +165,7 @@ function App() {
           />
         )}
       </main>
+      <Footer />
 
       <ImportModal
         open={importOpen}
